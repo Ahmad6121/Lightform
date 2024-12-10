@@ -98,14 +98,14 @@ body {
  /* Responsive size for small screens (mobile devices) */
  @media (max-width: 768px) {
    .ahmad {
-     width: 120px; /* Adjust the size for smaller devices */
+     width: 100px; /* Adjust the size for smaller devices */
    }
  }
 
  /* Optional: Adjust size for very small screens */
  @media (max-width: 480px) {
    .ahmad {
-     width: 100px; /* Further reduce size for very small devices */
+     width: 80px; /* Further reduce size for very small devices */
    }
  }
 .menu-icon {
