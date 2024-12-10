@@ -91,21 +91,23 @@ body {
 
 }
 .ahmad {
-    width: 150px; /* Adjust as needed */
-    height: auto;
-  }
+  height: 60px; /* تعديل الحجم ليكون أصغر */
+  width: auto;
+  max-width: 300px; /* الحد الأقصى لعرض الصورة */
+  object-fit: contain; /* التأكد من احتواء الصورة داخل الأبعاد */
+}
 
   /* Responsive size for small screens (mobile devices) */
   @media (max-width: 768px) {
     .ahmad {
-      width: 120px; /* Smaller size for mobile */
+      height: 40px; /* Smaller size for mobile */
     }
   }
 
   /* Optional: Adjust size even more for very small screens */
   @media (max-width: 480px) {
     .ahmad {
-      width: 100px; /* Further smaller size for very small devices */
+      height: 20px; /* Further smaller size for very small devices */
     }
   }
 .menu-icon {
