@@ -91,11 +91,23 @@ body {
 
 }
 .ahmad {
-  height: 60px; /* تعديل الحجم ليكون أصغر */
-  width: auto;
-  max-width: 300px; /* الحد الأقصى لعرض الصورة */
-  object-fit: contain; /* التأكد من احتواء الصورة داخل الأبعاد */
-}
+    width: 150px; /* Adjust as needed */
+    height: auto;
+  }
+
+  /* Responsive size for small screens (mobile devices) */
+  @media (max-width: 768px) {
+    .ahmad {
+      width: 120px; /* Smaller size for mobile */
+    }
+  }
+
+  /* Optional: Adjust size even more for very small screens */
+  @media (max-width: 480px) {
+    .ahmad {
+      width: 100px; /* Further smaller size for very small devices */
+    }
+  }
 .menu-icon {
   width: 30px;
   height: 20px;
