@@ -91,25 +91,23 @@ body {
 
 }
 .ahmad {
-  height: 60px; /* تعديل الحجم ليكون أصغر */
-  width: auto;
-  max-width: 300px; /* الحد الأقصى لعرض الصورة */
-  object-fit: contain; /* التأكد من احتواء الصورة داخل الأبعاد */
-}
+   width: 300px; /* Default size for large screens */
+   height: auto;
+ }
 
-  /* Responsive size for small screens (mobile devices) */
-  @media (max-width: 768px) {
-    .ahmad {
-      height: 40px; /* Smaller size for mobile */
-    }
-  }
+ /* Responsive size for small screens (mobile devices) */
+ @media (max-width: 768px) {
+   .ahmad {
+     width: 120px; /* Adjust the size for smaller devices */
+   }
+ }
 
-  /* Optional: Adjust size even more for very small screens */
-  @media (max-width: 480px) {
-    .ahmad {
-      height: 20px; /* Further smaller size for very small devices */
-    }
-  }
+ /* Optional: Adjust size for very small screens */
+ @media (max-width: 480px) {
+   .ahmad {
+     width: 100px; /* Further reduce size for very small devices */
+   }
+ }
 .menu-icon {
   width: 30px;
   height: 20px;
