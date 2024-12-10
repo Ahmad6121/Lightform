@@ -90,3 +90,9 @@ body {
 #navbar a:hover {
 
 }
+.ahmad {
+  height: 60px; /* تعديل الحجم ليكون أصغر */
+  width: auto;
+  max-width: 300px; /* الحد الأقصى لعرض الصورة */
+  object-fit: contain; /* التأكد من احتواء الصورة داخل الأبعاد */
+}
