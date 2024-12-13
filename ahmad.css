@@ -182,7 +182,7 @@ body {
 
 
 .carousel-item img {
-  
+ object-fit: cover; /* Cover the full screen */ 
   height: 100%;
 }
 
